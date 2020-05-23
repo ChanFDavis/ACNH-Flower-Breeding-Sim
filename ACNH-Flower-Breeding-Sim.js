@@ -2,7 +2,7 @@ var gridHeight = 5; /* Number of rows in the grid. */
 var gridWidth = 5; /* Number of columns in the grid. */
 
 var selectedFlower = 't';
-var flowerColor = 'blue';
+var flowerColor = 'red';
 var flowerColorIndex = 0;
 
 const flowerColorMap = new Map();
