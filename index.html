@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>ACNH Flower Breading Sim</title>
+<head>
+   <script src="ACNH-Flower-Breeding-Sim.js"></script>
+   <link rel="stylesheet" href="ACNH-Flower-Breeding-Sim-Style.css"></style>
+</head>
+
+<body onload='createGrid()'>
+   <div id="grid-area">
+      <table id="grid">
+
+      </table>
+   </div>
+   <div id="grid-controls">
+      <input id="grid-width-input" type="number" value="5" min="1" max="20">
+      <input id="grid-height-input" type="number" value="5" min="1" max="20">
+      <button id="grid-update-btn" type="button" onclick="updateGridSize()">Update Grid Size</button>
+   </div>
+
+</body>
+
+</html>
