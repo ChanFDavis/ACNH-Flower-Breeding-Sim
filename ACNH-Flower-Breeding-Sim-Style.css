@@ -1,0 +1,18 @@
+table {
+   empty-cells: show;
+   table-layout: auto;
+   border: 2px solid rgb(12, 109, 4);
+   background-color: rgb(134, 216, 113);
+   text-align: center;
+   border-spacing: 0px;
+}
+
+td {
+   height: 50px;
+   width: 50px;
+   border: 1px solid rgb(13, 158, 0);
+}
+
+div#grid-controls {
+   margin-top: 10px;
+}
