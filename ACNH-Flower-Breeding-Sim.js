@@ -30,6 +30,29 @@ flowerColorMap.set('p',
    'colors': ['red', 'orange', 'yellow', 'blue', 'white', 'purple']
 });
 
+flowerColorMap.set('h', 
+{
+   'name': 'hyacinth',
+   'colors': ['red', 'orange', 'yellow', 'pink', 'white', 'blue', 'purple']
+});
+
+flowerColorMap.set('c', 
+{
+   'name': 'cosmos',
+   'colors': ['red', 'orange', 'yellow', 'pink', 'white', 'black']
+});
+
+flowerColorMap.set('m', 
+{
+   'name': 'mum',
+   'colors': ['red', 'yellow', 'pink', 'white', 'green', 'purple']
+});
+
+flowerColorMap.set('r', 
+{
+   'name': 'rose',
+   'colors': ['red', 'orange', 'yellow', 'pink', 'blue', 'white', 'purple', 'black', 'gold']
+});
 
 function updateGridSize () {
    // TODO: Add titles for which input field is width/height
