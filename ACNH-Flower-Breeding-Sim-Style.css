@@ -16,3 +16,8 @@ td {
 div#grid-controls {
    margin-top: 10px;
 }
+
+img.flower-image-style {
+   width: 120px;
+   height: 120px;
+}

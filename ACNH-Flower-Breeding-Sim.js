@@ -15,7 +15,7 @@ flowerColorMap.set('t',
 flowerColorMap.set('w',
 {
    'name': 'windflower',
-   'colors': ['read', 'orange', 'white', 'blue', 'pink', 'purple']
+   'colors': ['red', 'orange', 'white', 'blue', 'pink', 'purple']
 });
 
 flowerColorMap.set('l',
@@ -75,7 +75,7 @@ function createGrid () {
       let newTableRow = document.createElement("tr");
       for (var col = 0; col < gridWidth; col++) {
          let newRowCell = document.createElement("td");
-         newRowCell.innerHTML = "W";
+         newRowCell.innerHTML = " ";
          newTableRow.appendChild(newRowCell);
       }
       grid.appendChild(newTableRow);
@@ -129,4 +129,5 @@ $(document).ready(function () {
       $(this).text(selectedFlower.toUpperCase());
    });
 
+   createGrid();
 });

@@ -7,7 +7,7 @@
    <link rel="stylesheet" href="ACNH-Flower-Breeding-Sim-Style.css"></style>
 </head>
 
-<body onload='createGrid()'>
+<bodys>
    <div id="grid-area">
       <table id="grid"></table>
    </div>
@@ -15,6 +15,17 @@
       <input id="grid-width-input" type="number" value="5" min="1" max="20">
       <input id="grid-height-input" type="number" value="5" min="1" max="20">
       <button id="grid-update-btn" type="button" onclick="updateGridSize()">Update Grid Size</button>
+   </div>
+   <div id="selection-displays">
+      <div id="flower-selection">
+         <p id="flower-name">Name of flower here!</p>
+         <label id="flower-name" for="flower-image">Name of flower here!</label>
+      </div> 
+      <div id="color-selection">
+         <p id="color-title">Pick a color!</p>
+         <div id="color-display">[Pretend there is an array of colors here].</div>
+      </div>
+
    </div>
 
 </body>
